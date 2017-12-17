@@ -27,6 +27,7 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-actuator')
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.springframework.boot:spring-boot-starter-web')
+	compile group: 'javax.mail', name: 'mail', version: '1.4.7'
 	runtime('org.apache.derby:derby')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
